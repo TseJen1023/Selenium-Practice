@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite thread-count="-1" name="Failed suite [Listeners TestSuite]" guice-stage="DEVELOPMENT">
+<suite name="Failed suite [Listeners TestSuite]" guice-stage="DEVELOPMENT">
   <test name="Application Test1(failed)">
     <classes>
       <class name="testclasses.TestNG_ListenersTest2">

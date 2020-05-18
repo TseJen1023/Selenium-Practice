@@ -1,6 +1,6 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Preserve Enable TestSuite">
-	<test name="Test 1" preserve-order="true">
+	<test name="Test 1" preserve-order="false"> <!--false: will according class1->2 -->
 		<classes>
 			<class name="testclasses.TestNG_Preserve2"></class>
 			<class name="testclasses.TestNG_Preserve1"></class>

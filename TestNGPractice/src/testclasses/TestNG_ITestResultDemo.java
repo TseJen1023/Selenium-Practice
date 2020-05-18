@@ -24,8 +24,7 @@ public class TestNG_ITestResultDemo {
 			System.out.println("Failed:" + testResult.getMethod().getMethodName());
 		}
 		if (testResult.getStatus() == ITestResult.SUCCESS) {
-			System.out.println("Successful:" + testResult.getName());
-			
+			System.out.println("Successful:" + testResult.getName()); //quick
 		}
 	}
 }

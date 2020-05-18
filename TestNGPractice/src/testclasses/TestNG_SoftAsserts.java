@@ -6,7 +6,7 @@ import org.testng.asserts.SoftAssert;
 
 import applicationcode.ClassToBeTested;
 
-public class TestNGSoftAsserts {
+public class TestNG_SoftAsserts {
 	@Test
 	  public void testAddNum() {
 		  SoftAssert soft = new SoftAssert() ;
