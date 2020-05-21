@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test name="Default test(failed)">
     <classes>
-      <class name="extenreports.LoginTest">
+      <class name="fileupload.FileUpload">
         <methods>
-          <include name="tearDown"/>
           <include name="beforeClass"/>
-          <include name="test1_validLoginTest"/>
+          <include name="fileUpload"/>
+          <include name="afterClass"/>
         </methods>
-      </class> <!-- extenreports.LoginTest -->
+      </class> <!-- fileupload.FileUpload -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
